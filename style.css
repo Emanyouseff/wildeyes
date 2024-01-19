@@ -135,7 +135,9 @@ font-weight:400;
     margin:3rem  auto;
     text-align: center;
     justify-content:space-around;
-    width: 80%;
+    /* width: 80%; */
+    width: 100%;
+    flex-wrap: wrap;
 }
 .icon1{
     padding-right: 15px;
