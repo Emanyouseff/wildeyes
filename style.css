@@ -272,9 +272,9 @@ img{
         .section3 h3{  margin-bottom:0; }
         .section3 h4{  margin-bottom: 0px; }
         .section3 button{ margin-top:10px; }
-        /* .section3 .imag {
-            width: 50%;
-        } */
+        .section4 .icon{
+           flex-direction: column;
+        }
 }
 @media(max-width:780px){
     .mody-3{
@@ -286,9 +286,7 @@ img{
     .section4{
         padding: 20px;
      }
-     .icon1{
-       width: 80%;
-    }
+
 }
 
 @media (max-width:700px) {
