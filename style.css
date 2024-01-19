@@ -139,6 +139,7 @@ font-weight:400;
 }
 .icon1{
     padding-right: 15px;
+    margin: 20px;
 }
 .icon1 i{
  color: var(--mincolor);
