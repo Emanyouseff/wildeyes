@@ -268,9 +268,9 @@ img{
     font-size: 18px;
     color:rgba(0, 0, 0, 0.614);
 }
-@media (max-width:1000px){
+@media (max-width:990px){
     .section4 .icon{
-        display: block;
+        display: none;
      }
 }
 @media (max-width:890px){
