@@ -21,9 +21,13 @@ section{
     text-transform: capitalize;
 }
 
+.container{
+    max-width: 1180px;
+    padding: 0 18px;
+    margin: 0 auto;
+}
 .hero{
-    background-image: url(./image/vr.jpeg);
-  background-size: 100% 100%;
+    background: url(./image/vr.jpeg)center/cover no-repeat;
      min-height: 600px;
    display: flex;
    align-items: center;
@@ -75,17 +79,18 @@ margin-bottom: 20px;
 color: var(--mincolor);
 font-size: 50px;
 margin-bottom: 10px;
+} 
+h4{
+    font-size: 30px;
+    margin-bottom: 15px;
+    color: #000000;
 }
 .section3 h3{
     color: var(--darkcolor);
     font-size: 25px;
     margin-bottom: 10px;
 }
- h4{
-    font-size: 30px;
-    margin-bottom: 15px;
-    color: #000000;
-}
+
 .content p{
     color: var(--darkcolor);
 }
