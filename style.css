@@ -194,7 +194,7 @@ color: #000000;
     margin-bottom: 10px;
 }
 .margin{
-     margin: 0 20px;
+     margin: 5px 20px;
 }
 .section6 p{
     display: inline-block;
@@ -266,3 +266,8 @@ color: #000000;
     width: 75%;
    }
 }
+@media (max-width:420px) {
+    .section6 .margin {
+        font-size: 18px;
+    }
+ }
