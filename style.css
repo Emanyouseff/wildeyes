@@ -270,4 +270,13 @@ color: #000000;
     .section6 .margin {
         font-size: 18px;
     }
+    .margin {
+        margin: 5px 15px;
+    }
+ }
+ 
+ @media (max-width:350px) {
+    .margin {
+        margin: 5px 10px;
+    }
  }
